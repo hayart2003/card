@@ -3,13 +3,7 @@ body{
     background-color: #FFFEF6;
 }
 
-img {
-    src: url('images/octopus with crayons');
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
- 
+
     img {
         width: 50%;
     }
@@ -19,6 +13,7 @@ img {
     align-items: left;
     height: 100vh;
  } */
+
 
  .crayoncorner-left{
     position:fixed;
@@ -94,21 +89,84 @@ height: 150px;
    width: 89px;
    height: 89px;
    display: grid;
+
+
+
+   mobile grid
+   @media (max-width: 768px) { 
+    .crayon-new-right{
+        position: fixed;
+        top: -90px;
+        left: -90px;
+    }
+    .crayon-new-left{
+        position: fixed;
+        bottom: -90px;
+        left: -90px;
+    }
+    .crayon-actual-top-right{
+        position: fixed;
+        top: -90px;
+        right: -90px;
+     }
+     .crayon-bottom-right{
+        position: fixed;
+        bottom: -90px;
+        right: -90px;}
+   
+   @media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    /* grid-template-columns: 1fr 1fr;
    grid-template-rows: 1fr 1fr; */
    /* gap: 10px;
  }
 
 
- @media (max-width: 768px) { 
+
+
+
+ 
+/* 
+ @media (max-width: 768px) 
+ { 
    body { font-size: 16px; padding: 10px; 
-   }
+   } */
    
+   .octopus-logo{
+        width: -500px;
+        height: -500px;
+     }
 
 
 
-All animation
-
+All
+/* 
 
 
 
@@ -116,7 +174,7 @@ All animation
 
 
    
-   body, html{
+   /* body, html{
       width: 100%;
       height: 100%;  
     }
@@ -247,7 +305,7 @@ All animation
         animation-delay: 2s;
     }
 
-   
+    */ */
 
 
     
