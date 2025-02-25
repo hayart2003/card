@@ -7,6 +7,12 @@ body{
     img {
         width: 50%;
     }
+.octopus-graphic{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
  /* div{
     display: flex;
     justify-content: left;
@@ -65,12 +71,13 @@ height: 150px;
    /* grid-template-columns: 1fr 1fr;
    grid-template-rows: 1fr 1fr; */
    gap: 10px;
- } */
+ } 
 
  .resume-icon { 
    width: 89px;
    height: 89px;
-   display: grid; */
+   display: grid; 
+ }
    /* /* grid-template-columns: 1fr 1fr;
    grid-template-rows: 1fr 1fr; */
    /* gap: 10px;
@@ -89,10 +96,11 @@ height: 150px;
    width: 89px;
    height: 89px;
    display: grid;
+ }
 
 
 
-   mobile grid
+   /* mobile grid */
    @media (max-width: 768px) { 
     .crayon-new-right{
         position: fixed;
@@ -112,68 +120,22 @@ height: 150px;
      .crayon-bottom-right{
         position: fixed;
         bottom: -90px;
-        right: -90px;}
+        right: -90px;} }
    
-   @media (prefers-reduced-motion: reduce) {
+   /* @media (prefers-reduced-motion: reduce) {
     * {
       animation: none !important;
       transition: none !important;
       scroll-behavior: auto !important;
     }
   }
-  
+   */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   /* grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr; */
-   /* gap: 10px;
- }
-
-
-
-
-
- 
-/* 
- @media (max-width: 768px) 
- { 
-   body { font-size: 16px; padding: 10px; 
-   } */
-   
-   .octopus-logo{
-        width: -500px;
-        height: -500px;
-     }
-
-
-
-All
+/* All animation */
 /* 
 
-
-
-
-
-
-   
    /* body, html{
       width: 100%;
       height: 100%;  
@@ -305,10 +267,4 @@ All
         animation-delay: 2s;
     }
 
-    */ */
-
-
-    
-    
-    
-    
+    */
